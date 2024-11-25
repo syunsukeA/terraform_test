@@ -1,0 +1,14 @@
+name: test tag push
+
+on:
+  push:
+    paths:
+      - test/**/*
+
+jobs:
+  call_workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: execute echo
+      run: echo "workflow executed!!"
