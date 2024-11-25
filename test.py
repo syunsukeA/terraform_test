@@ -1,1 +1,1 @@
-print("これはシンプルなpushでは`test_tag_pushワークフローは走らないはず`")
+print("このプルリクでは`echo job`は走らないはず`")
